@@ -744,10 +744,10 @@ footer .bottom-footer {
   }
   .mobile-nav {
     display: block;
-    transform: translateX(300%);
+    transform: translateX(100%);
     transition: all .5s;
     z-index: 9999;
-    width: 50%;
+    width: 90%;
     background-image: linear-gradient(to bottom, purple,blue);
     height: 100%;
     border: 2px solid red;
