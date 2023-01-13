@@ -355,7 +355,7 @@ header a {
   transform: scaleX(-1);
     grid-area: 1/1;
     top: -143px;
-    /* right: 0; */
+    right: 0;
 }
 /* .dsply-oppo {
   grid-area: 2/2;
