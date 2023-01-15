@@ -12,3 +12,27 @@ function closeMobileNav() {
     mobileNav.setAttribute("aria-hidden", "true");
 
 }
+
+const header = document.querySelector("header");
+
+const sectionOne = document.querySelector(".section-1");
+
+const sectionOneOptions = {
+    rootMargin: "-100px 0px 0px 0px"
+};
+const callback = function(entries,  sectionOneObserver) {
+    entries.forEach(entry => {
+       if(!entry.isIntersecting) {
+        console.log("add scrolled")
+        header.classList.add('nav-scrolled')
+       }
+       else {
+        console.log('remove scorlled')
+        header.classList.remove('nav-scrolled')
+
+       }
+    })
+}
+const sectionOneObserver = new IntersectionObserver(callback, sectionOneOptions)
+
+sectionOneObserver.observe(sectionOne)

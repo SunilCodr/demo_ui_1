@@ -132,6 +132,16 @@ header a {
   cursor: pointer;
 
 }
+.nav-scrolled {
+  z-index: 100;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all .3s ease;
+  box-shadow: 0 1px 20px rgb(63, 61, 61, 0.2)
+}
 .mob-hamburger-switch {
   display: none;
 }
@@ -144,6 +154,11 @@ header a {
 
 
 /* main */
+main {
+  margin-top: 38px;
+  position: relative;
+  z-index: 10;
+}
 .main-container {
   padding: 0 200px;
 }
@@ -153,6 +168,7 @@ header a {
   /* text-align:center; */
   padding-top: 2%;
   margin-bottom: 113px;
+  border: 1px solid red;
 }
 .hero-intro {
   display: flex;
@@ -729,6 +745,21 @@ footer .bottom-footer {
 
 
 @media (max-width:1010px) {
+  .nav-scrolled {
+    z-index: 100;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all .3s ease;
+    box-shadow: 0 1px 20px rgb(63, 61, 61, 0.2)
+  }
+  main {
+    margin-top: 40px;
+    position: relative;
+    z-index: 10;
+  }
   .nav-container {
     padding: 0 10px;
   }
