@@ -745,16 +745,6 @@ footer .bottom-footer {
 
 
 @media (max-width:1010px) {
-  .nav-scrolled {
-    z-index: 100;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    transition: all .3s ease;
-    box-shadow: 0 1px 20px rgb(63, 61, 61, 0.2)
-  }
   main {
     margin-top: 40px;
     position: relative;
