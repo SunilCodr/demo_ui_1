@@ -165,10 +165,8 @@ main {
 /* Hero Section -1  */
 
 .section-1 {
-  /* text-align:center; */
   padding-top: 2%;
   margin-bottom: 113px;
-  border: 1px solid red;
 }
 .hero-intro {
   display: flex;
@@ -638,27 +636,6 @@ footer {
 .footer-navigations-box .latest-blog {
   grid-column: 3 / 5;
 }
-/* .footer-navigations-box .sell-online {
-  grid-area: sell ;
-}
-.footer-navigations-box .product {
-  grid-area: product;
-}
-.footer-navigations-box .for-your-business {
-  grid-area: business;
-}
-.footer-navigations-box .partners {
-  grid-area: partner;
-}
-.footer-navigations-box .company {
-  grid-area: company;
-}
-.footer-navigations-box .support {
-  grid-area: support;
-}
-.footer-navigations-box .latest-blog {
-  grid-area: latest;
-} */
 
 .footer-icon {
   width: 20px;
@@ -977,13 +954,5 @@ footer .bottom-footer {
 }
 .bottom-footer-navigations-box {
   flex-direction: column;
+}  
 }
-  
-  
-}
-/* @media (max-width:476px) {
-  body {
-    background-color: red;
-    width: 100%;
-  }
-} */
