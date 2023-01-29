@@ -3,6 +3,16 @@ const mobileNav = document.getElementById("mobile-nav");
 const closeSwitch = document.getElementById("mob-close-menu-switch")
 openSwitch.addEventListener('click', showMobilNav);
 closeSwitch.addEventListener('click', closeMobileNav);
+
+window.addEventListener("scroll", myFunction)
+function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById('bar').style.width = scrolled + "%";
+}
+
+
 function showMobilNav() {
     mobileNav.style.transform = 'translateX(0%)';
     mobileNav.setAttribute("aria-hidden", "false");
