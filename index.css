@@ -76,6 +76,19 @@ h3 {
 }
 
 /* General Styling */
+
+.progress-container {
+  position: fixed;
+  top: 0;
+  z-index:1;
+  width: 100%;
+
+}
+.progress-bar {
+  height: 8px;
+  background-color: #04AA6D;
+  width: 0%;
+}
 header {
   font-family: cursive;
     font-weight: 500;
